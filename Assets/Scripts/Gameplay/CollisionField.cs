@@ -5,6 +5,9 @@ using UnityEngine;
 
 namespace Gameplay
 {
+    /// <summary>
+    ///    Tracks certain collider and invokes callback on it leaving this collision field
+    /// </summary>
     public class CollisionField : MonoBehaviour
     {
         private Collider collider;
